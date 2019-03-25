@@ -15,3 +15,20 @@ Exercise your monkeys by retrieving their properties and using their methods. Pr
 for retrieving properties (dot notation and brackets).
 
 */
+var monkey = function (name,species,foodsEaten) {
+
+console.log("name: " + name + ", species: " + species + " and the food that eaten: " + foodsEaten);
+
+};
+
+var AA = new monkey("AA","Brown","Bannana");
+var BB = new monkey("BB","Black","Bannana");
+var CC = new monkey("CC","Gray","Bannana");
+
+var eatSomething = function(thingAsString){
+
+foodsEaten = thingAsString;
+
+}
+AA.eatSomething("Apple");
+console.log(AA);
